@@ -1,6 +1,7 @@
 import express from 'express'
-import appConfig from './config'
+import { appConfig, Logger } from './config'
 
+global.logger = Logger.createLogger({ label: 'MUSIC_API' })
 const app = express()
 
 appConfig(app)

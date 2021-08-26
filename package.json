@@ -18,9 +18,12 @@
   "license": "ISC",
   "dependencies": {
     "app-root-path": "^3.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
     "winston": "^3.3.3",
     "winston-mongodb": "^5.0.7"
   },

@@ -10,6 +10,11 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
+  globals: {
+    logger: 'readonly',
+    describe: 'readonly',
+    it: 'readonly'
+  },
   rules: {
   }
 }
