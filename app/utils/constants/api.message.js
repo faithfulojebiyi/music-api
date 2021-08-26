@@ -1,5 +1,5 @@
 export default {
-  MYMUSIC_RUNNING: 'ZeaMusic is running on PORT',
+  MUSIC_RUNNING: 'ZeaMusic is running on PORT',
   SUCCESS: 'success',
   SUCCESS_RESPONSE: 'Request was successfully processed',
   FAIL: 'fail',
