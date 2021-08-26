@@ -1,4 +1,3 @@
-/* eslint-disable max-lines-per-function */
 import winston from 'winston'
 import fs from 'fs'
 import 'winston-mongodb'
