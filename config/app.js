@@ -1,7 +1,6 @@
 import { json, urlencoded } from 'express'
 
 const appConfig = (app) => {
-
   app.use(json())
   // adds middleware that parses requests with x-www-form-urlencoded data encoding
   app.use(urlencoded({ extended: true }))
@@ -14,6 +13,6 @@ const appConfig = (app) => {
   app.listen(port, () => {
     console.log(`${'ORIGINS'} ${port}`)
   })
-};
+}
 
-export default appConfig;
+export default appConfig

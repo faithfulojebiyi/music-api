@@ -1,7 +1,7 @@
-import rootPath from 'app-root-path';
+import rootPath from 'app-root-path'
 import production from './production'
-import development from './development';
-import test from './test';
+import development from './development'
+import test from './test'
 
 const {
   MYMUSIC_PORT: PORT,
@@ -10,13 +10,13 @@ const {
   MYMUSIC_AWS_ACCESS_KEY: AWS_ACCESS_KEY,
   MYMUSIC_AWS_SECRET_KEY: AWS_SECRET_KEY,
   MYMUSIC_BUCKET: AWS_BUCKET_NAME
-} = process.env;
+} = process.env
 
 const currentEnv = {
   production,
   development,
   test
-}[NODE_ENV || 'development'];
+}[NODE_ENV || 'development']
 
 export default {
   ...process.env,
@@ -28,4 +28,4 @@ export default {
   AWS_ACCESS_KEY,
   AWS_SECRET_KEY,
   AWS_BUCKET_NAME
-};
+}
