@@ -5,7 +5,6 @@ const { DB_ERROR, DB_ERROR_STATUS } = constants
 
 /**
  * A custom error class for handling db related errors.
- *
  * @class DBError
  */
 export default class DBError extends ModuleError {

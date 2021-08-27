@@ -4,7 +4,6 @@ import ModuleError from './module.error'
 const { INTERNAL_SERVER_ERROR } = constants
 /**
  * A custom error class for handling Api errors.
- *
  * @class ApiError
  */
 export default class ApiError extends ModuleError {

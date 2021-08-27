@@ -24,8 +24,6 @@ const getLogToProcess = (env, fileOpt, consoleOpt, mongoOpt) => {
 /**
  * Used to logs events in the app's lifecycle.
  * @class Logger
- *
- *
  */
 class Logger {
   /**

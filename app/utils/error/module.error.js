@@ -4,7 +4,7 @@ const { MODULE_ERROR, MODULE_ERROR_STATUS } = constants
 
 /**
  * A custom error class for handling module related errors.
- *
+
  * @class ModuleError
  */
 export default class ModuleError extends Error {
